@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="script.js" defer></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,0,0" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/scrollreveal"></script>
+    
+
+
+    
+
+</head>
+<link rel="stylesheet" href="style.css">
+
+<link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+
+<body>
+  <div class="container">
+    
+  </div>
+  
+ <!--   HEADER   -->
+ <nav id="header">
+  <div class="nav-logo">
+    
+    <p class="nav-name">Erik</p>
+     <span>.</span> 
+  </div>
+ 
+
+  
+  <div class="nav-menu" id="myNavMenu">
+    <ul class="nav_menu_list">
+      <li class="nav_list">
+        <a href="#home" class="nav-link active-link">Home</a>
+        <div class="circle"></div>
+      </li>
+      <li class="nav_list">
+        <a href="#about" class="nav-link">About</a>
+        <div class="circle"></div>
+      </li>
+      <li class="nav_list">
+        <a href="#projects" class="nav-link">Projects</a>
+        <div class="circle"></div>
+      </li>
+      <li class="nav_list">
+        <a href="#contact" class="nav-link">Contact</a>
+        <div class="circle"></div>
+      </li>
+    </ul>
+  </div>
+ 
+  
+  <div class="nav-button">
+    <a href="cv.pdf" download="ErikG_cv.pdf" class="btn"> Download CV <i class="fa fa-download"></i></a>
+</div>
+  <div class="nav-menu-btn"><span class="menu-ham" onclick="myMenuFunction()">☰</span></div>
+ </nav>
+ 
+ 
+
+
+  <!--   MAIN   -->
+  <main class="wrapper">
+    
+    
+    <section class="featured-box" id="home">
+      <div class="featured-text">
+        
+        
+        <div class="featured-name">
+          <!-- <p><span class="typedText">Developer</span></p> -->
+          <div class="text-container">
+            <div class="animated-text"></div>
+          </div>
+          <div class="toggle-bar" onclick="toggleDarkMode()">
+            <div id="sun"><i id="moon-icon" class="fa fa-moon-o"></i></i></div>
+             <div id="moon"><i id="sun-icon" class="fa fa-sun-o"></i></div>
+          </div>
+        </div>
+        <div class="featured-text-info">
+          <span class="name_me">Erik Georgievski</span>
+          <p>I'm interested in programming and web design and want to be a part of the process of creating a website and making e-commerce more accessible for all generations. Transforming an idea and vision into a finished product that contributes to improved visual communication and strengthened brand is something I am passionate about.
+          </p>
+          
+        </div>
+        <div class="featured-text-btn">
+          <a href="#contact"><button class="btn blue btn">Hire me</button></a>
+          <button class="btnn" ><a href="cv.pdf" download="ErikG_cv.pdf" class="btn"> Download CV <i class="fa fa-download"></i></a></span></button>
+        </div>
+        <div class="social_icons" id="icons">
+          <div class="icon"><a href="https://github.com/ErikGeorgievski" target="_blank"><i  class="fa fa-github"></i></a></div>
+          <div class="icon"><a href="https://www.linkedin.com/in/erik-georgievski-7378a71a2/?originalSubdomain=se" target="_blank"><i  class="fa fa-linkedin"></i></a></div>
+          <div class="icon"><a href="https://www.facebook.com/erik.georgievski/"  target="_blank"><i  class="fa fa-facebook"></i></a></div>
+          <div class="icon"><a href="https://www.instagram.com/erik.georgievski/" target="_blank"><i  class="fa fa-instagram"></i></a></div>
+        </div>
+      </div>
+      <div class="featured-image">
+        <div class="image">
+          <img class="test" src="img/img001.png" alt="">
+        </div>
+      </div>
+       
+     
+      
+
+
+
+    </section>
+    
+    <!--   ABOUT  -->
+    <section class="section" id="about">
+      <div class="top-header">
+       
+        
+        <h1 class="aboutme">About Me
+          
+        </h1>
+        
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="about-info">
+            <h3>My introduction</h3>
+            <p>A Web Developer with knowledge and skills in UI/UX Design, HTML5, CSS, Bootstrap, JavaScript, React, NodeJS, PHP, MySQL, database design, and front-end development. Skilled in collaborating with dynamic teams to construct high-quality websites and identifying opportunities to enhance user experiences. I am a problem solver passionate about programming, a quick learner, and always eager to explore new solutions in the world of coding. I am an effective team player in collaborative environments, adapting seamlessly to group dynamics, yet adept at working independently when needed.</p>
+            <hr>
+            <div class="about-btn">
+              <button  class="btn"><a href="cv.pdf" download="ErikG_cv.pdf" class="btn1"> Download CV <i class="fa fa-download"></i></a></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="skills-box">
+            <div class="skills-header">
+              <h3>Frontend</h3>
+            </div>
+            <div class="skills-list">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Bootstrap</span>
+              <span>JavaScript</span>
+              <span>REST APIs</span>
+              <span>React</span>
+              <span>Figma</span>
+              
+
+            </div>
+          </div>
+          <div class="skills-box">
+            <div class="skills-header">
+              <h3>Backend</h3>
+            </div>
+            <div class="skills-list">
+              <span>PHP</span>
+              <span>Node JS</span>
+              
+
+            </div>
+          </div>
+          <div class="skills-box">
+            <div class="skills-header">
+              <h3>Database</h3>
+            </div>
+            <div class="skills-list">
+              <span>MySQL</span>
+              <span>MongoDB</span>
+              <span>Table Plus</span>
+              <span>Laragon</span>
+              
+              
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+     <!--   PROJECTS  -->
+     <section class="section" id="projects">
+      <div class="top-header">
+        <h1>Projects</h1>
+      </div>
+      <div class="project-container">
+        <div class="project-box">
+          <div>
+            <img src="img/img03.png" alt="">
+            <h3>
+              <div class="project-div">
+                <a href="https://erikgeorgievski.github.io/webb23-html-slutprojekt-erik-georgievski/" target="_blank"><i class="fa fa-internet-explorer" style="height: 50px;"></i></a>
+                <a href="https://github.com/ErikGeorgievski/webb23-html-slutprojekt-erik-georgievski" target="_blank"><i class="fa fa-github"  style="height: 50px;"></i></a>
+              </div>
+              
+            </h3>
+
+          </div>
+          
+          
+
+        </div>
+        <div class="project-box">
+          <div>
+            <img src="img/img02.png" alt="">
+            <h3>
+              <div class="project-div">
+                <a href="https://erikgeorgievski.github.io/webb23-js01-slutprojekt-erik-georgievski/" target="_blank"><i class="fa fa-internet-explorer" style="height: 50px;"></i></a>
+                <a href="https://github.com/ErikGeorgievski/webb23-js01-slutprojekt-erik-georgievski" target="_blank"><i class="fa fa-github"  style="height: 50px;"></i></a>
+              </div>
+              
+            </h3>
+
+          </div>
+          
+
+        </div>
+        <div class="project-box">
+          <div>
+            <img src="img/img07.png" alt="">
+            <h3>
+              <div class="project-div">
+                <a href="https://erikgeorgievski.github.io/Hairly/" target="_blank"><i class="fa fa-internet-explorer" style="height: 50px;"></i></a>
+                <a href="https://github.com/ErikGeorgievski/Hairly" target="_blank"><i class="fa fa-github"  style="height: 50px;"></i></a>
+              </div>
+              
+            </h3>
+
+          </div>
+      </div>
+
+
+
+      
+        
+      </div>
+      <div class="project-container" id="container-two">
+        <div class="project-box">
+          <div>
+            <img src="img/img08.png" alt="">
+            <h3>
+              <div class="project-div">
+                <a href="https://erikgeorgievski.github.io/webb23-html-mp2-erik-georgievski/" target="_blank"><i class="fa fa-internet-explorer" style="height: 50px;"></i></a>
+                <a href="https://github.com/ErikGeorgievski/webb23-html-mp2-erik-georgievski" target="_blank"><i class="fa fa-github"  style="height: 50px;"></i></a>
+              </div>
+              
+            </h3>
+
+          </div>
+          
+          
+
+        </div>
+        <div class="project-box">
+          <div>
+            <img src="img/Barber.png" alt="">
+            <h3>
+              <div class="project-div">
+                <a href="https://erikgeorgievski.github.io/erik-georgievski-mr-barber/" target="_blank"><i class="fa fa-internet-explorer" style="height: 50px;"></i></a>
+                <a href="https://github.com/ErikGeorgievski/erik-georgievski-mr-barber" target="_blank"><i class="fa fa-github"  style="height: 50px;"></i></a>
+              </div>
+              
+            </h3>
+
+          </div>
+          
+
+        </div>
+        <div class="project-box">
+          <div>
+            <img src="img/img09.png" alt="">
+            <h3>
+              <div class="project-div">
+                <a href="" target="_blank"><i class="fa fa-internet-explorer" style="height: 50px;"></i></a>
+                <a href="https://github.com/ErikGeorgievski/erik_georgievski_portfolio" target="_blank"><i class="fa fa-github"  style="height: 50px;"></i></a>
+              </div>
+              
+            </h3>
+
+          </div>
+      </div>
+
+
+     </section>
+
+
+     <!--   CONTACT  -->
+
+     <section class="section" id="contact">
+      <div class="top header">
+        <h1>Get in touch</h1>
+        <span>Do you have a project in your mind, contact me here</span>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="contact-info">
+            <h2>Find me  <i class="fa fa-arrow-down"></i></h2>
+            <p><a href="mailto:erik.georgievski@hotmail.com"><i class="fa fa-envelope-o"></i> erik.georgievski@hotmail.com</a></p>
+            <p> <a  class="tel:+46736233107" href="tel:+46736233107"><i class="fa fa-phone"></i>Tel: +46 736 233 107</a></p>
+
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-control" id="form">
+            
+            <div class="form-inputs">
+              <input type="text" id="name"  class="input-field" placeholder="Name">
+              <input type="text" id="email"  class="input-field" placeholder="Email">
+            </div>
+            <div class="text-area">
+              <textarea placeholder="Message" id="message" ></textarea>
+              
+            </div>
+            <div class="message" id="success-message"></div>
+            <div class="fom-button">
+              <button class="btn" id="submitButton" type="button" onclick="sendEmail()">Send <i class="fa fa-share-square-o"></i></button>
+            </div>
+            
+            
+          </div>
+          
+
+        </div>
+        
+        
+      </div>
+      
+     </section>
+
+
+
+
+
+  </main>
+
+
+
+   <!--   FOOTER  -->
+   <footer>
+    <div class="top-footer">
+      <p>Erik Georgievski</p>
+    </div>
+    <div class="middle-footer">
+      <ul class="footer-menu">
+        <li class="footer_menu_list">
+          <a href="#home">Home</a>
+        </li>
+        <li class="footer_menu_list">
+          <a href="#about">About</a>
+        </li>
+        <li class="footer_menu_list">
+          <a href="#projects">Projects</a>
+        </li>
+        <li class="footer_menu_list">
+          <a href="#contact">Contact</a>
+        </li>
+
+      </ul>
+    </div>
+    <div class="footer-social-icons">
+          <div class="icon"><a href="https://github.com/ErikGeorgievski" target="_blank"><i  class="fa fa-github"></i></a></div>
+          <div class="icon"><a href="https://www.linkedin.com/in/erik-georgievski-7378a71a2/?originalSubdomain=se" target="_blank"><i  class="fa fa-linkedin"></i></a></div>
+          <div class="icon"><a href="https://www.facebook.com/erik.georgievski/" target="_blank"><i  class="fa fa-facebook"></i></a></div>
+          <div class="icon"><a href="https://www.instagram.com/erik.georgievski/" target="_blank"><i  class="fa fa-instagram"></i></a></div>
+
+    </div>
+    <div class="bottom-footer">
+      <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Erik Georgievski</a>-All rights reserved</p>
+    </div>
+
+
+
+   </footer>
+
+
+
+
+
+</div>
+
+
+  
+  <!--   TYPING JS Link    -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!--   SCROLL REVEAL JS Link    -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+
+
+  <!--   MAIN JS    -->
+</body>
+</html>
