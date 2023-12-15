@@ -841,6 +841,21 @@ body {
     #about{
         margin-top:7% ;
     }
+    #envelope{
+        display: block;
+        font-size: 2em;
+    }
+    #phone{
+        display: block;
+        font-size: 2em;
+    }
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centrera vertikalt */
+        justify-content: center; /* Centrera horisontellt */
+        text-align: center; /* Centrera texten om det behövs */
+      }
     
     
   

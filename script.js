@@ -98,25 +98,7 @@ sr.reveal('.about-info',{delay: 200});
 sr.reveal('.contact-info',{delay: 200});
 
 
-// /*ABOUT CONTACT INFO*/
-// const srLeft = ScrollReveal({
-//   origin: 'left',
-//   distance:'80px',
-//   duration: 2000,
-//   reset: true
-// })
 
-// srLeft.reveal('.about-info',{delay: 100});
-// srLeft.reveal('.contact-info',{delay: 100});
-
-
-// /*ABOUT ASKILLS*/ 
-// const srRight = ScrollReveal({
-//   origin: 'right',
-//   distance:'80px',
-//   duration: 2000,
-//   reset: true
-// })
 
 sr.reveal('.skills-box',{delay: 200});
 sr.reveal('.form-control',{delay: 200});
@@ -152,7 +134,7 @@ window.addEventListener('scroll', scrollActive)
 
 
 
-emailjs.init("bSqp-dzFNCU3tNzb9"); // Ersätt YOUR_USER_ID med ditt användar-ID från Email.js
+emailjs.init("bSqp-dzFNCU3tNzb9"); 
 
 function sendEmail() {
     var name = document.getElementById("name").value;
